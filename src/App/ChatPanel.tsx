@@ -24,13 +24,13 @@ const ChatPanel: React.FC = () => {
       };
 
       const requestPayload = {
-        model: 'gpt-4',
+        model: 'gpt-4o',
         messages: [
           { role: 'system', content: 'Ты ассистент, который помогает пользователю работать с MindMap и размышлять над его задачами.' },
           { role: 'system', content: `Структура MindMap: ${JSON.stringify(mindmapState)}` }, // Добавляем структуру mindmap
           { role: 'user', content: userMessage }
         ],
-        max_tokens: 150,
+        max_tokens: 1000,
       };
 
       console.log('Request Payload:', JSON.stringify(requestPayload, null, 2)); // Логируем текст запроса
