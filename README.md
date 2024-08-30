@@ -1,4 +1,4 @@
-# React Flow Mind Map App
+# AI Mindmap App
 
 ![mindmap](https://user-images.githubusercontent.com/2857535/210797861-510f0a3d-fd67-46a7-8a8d-c409cb7dbcdb.png)
 

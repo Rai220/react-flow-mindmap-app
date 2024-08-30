@@ -81,3 +81,44 @@ body,
   background: rgba(255, 255, 255, 0.25);
   pointer-events: all;
 }
+/* ChatPanel.css */
+.chat-panel {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 300px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.messages {
+  flex: 1;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+.message {
+  padding: 5px;
+  border-bottom: 1px solid #eee;
+}
+
+input {
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+button {
+  padding: 5px;
+}
+
+.openai-response {
+  margin-top: 10px;
+}
+
+.openai-response h3 {
+  margin: 0;
+}
+
+.openai-response p {
+  margin: 5px 0 0 0;
+}

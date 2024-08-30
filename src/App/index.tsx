@@ -11,6 +11,7 @@ import ReactFlow, {
   Panel,
 } from 'reactflow';
 import shallow from 'zustand/shallow';
+import ChatPanel from './ChatPanel';
 
 import useStore, { RFState } from './store';
 import MindMapNode from './MindMapNode';
@@ -123,7 +124,10 @@ function Flow() {
     >
       <Controls showInteractive={false} />
       <Panel position="top-left" className="header">
-        React Flow Mind Map
+        AI Mindmap App
+      </Panel>
+      <Panel position="top-right">
+        <ChatPanel />
       </Panel>
     </ReactFlow>
   );
